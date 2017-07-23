@@ -1,0 +1,42 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.container {
+    background-color:black;
+    margin-top:70px;
+    margin-left:0px;
+    margin-right:0px;
+}
+
+.img-container {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    justify-content: space-around;
+    margin-top:70px;
+    margin-left:70px;
+    margin-right:70px;
+    margin-bottom:30px;
+    
+    
+}
+
+.img-item {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    margin-bottom:25px;
+}
+
+.poster {
+    width:350px;
+    height:450px;
+}
+
+.poster-img {
+    width:350px;
+    height:450px;
+}
