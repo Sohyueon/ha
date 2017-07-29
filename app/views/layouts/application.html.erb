@@ -1,20 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 <head>
-  <title>Workspace</title>
+  <meta charset="utf-8">
+  <title>Lightbox Example</title>
+  <link href="/assets/lightbox.scss" rel="stylesheet">
+  <link href="/assets/magnificPopup.scss" rel="stylesheet">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  
+
   <%= csrf_meta_tags %>
-  <style>
-    body {
-    background-color:black;
-    margin:0px 0px 0px 0px;
-}
-  </style>
 </head>
+
 <body>
 
 <%= yield %>
+<script src="/assets/lightbox-plus-jquery.js"></script>
+<script src="/assets/lightbox-plus-jquery.min.js"></script>
+<script src="/assets/lightbox-plus-jquery.min.map.js"></script>
+<script src="/assets/lightbox.js"></script>
+<script src="/assets/lightbox.min.js"></script>
+<script src="/assets/lightbox.min.map.js"></script>
+<script src="/assets/popup.js"></script>
 
 </body>
 </html>
